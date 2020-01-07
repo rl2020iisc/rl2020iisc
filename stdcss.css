@@ -1,0 +1,83 @@
+/*
+ * LAYOUT STUFF
+ */
+
+h2 {
+	margin-top:			25px;
+}
+
+dt {
+	margin-top:			10px;
+	margin-left:		25px;
+}
+
+dd {
+	margin-left:		40px;
+}
+
+
+/* stuff with border on left */
+div.header {
+	width:				97%;
+	border-color:		white;
+	border-right-style:	solid;
+}
+
+dl, div.faq {
+	border-color:		white;
+	border-left-style:	solid;
+}
+
+dl.handouts {
+	border-bottom-style: solid;
+}
+
+
+
+/*
+ * FORMATTING STUFF
+ */
+
+body {
+	text-transform:		none;
+	text-decoration:	none;
+
+	font-family:		Arial, "lucida console", sans-serif;
+	color:				black;
+	background:			#ffffff;
+}
+
+h1,h2, h3, h4, h5, h6, th, dt {
+	font-family:		Tahoma, Verdana, 'Myriad Web', Syntax,
+	sans-serif;
+	font-variant: small-caps;
+	color:				blue;
+}
+
+hr {
+	color:				blue;
+}
+
+a:link	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:		green;
+}
+
+a:visited	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:			green;
+}
+
+a:active	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:				#003300;
+}
+
+a:hover	{
+	text-decoration:	none;
+	color:				#003300;
+	background:			white;
+}
